@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  @apply antialiased;
+}
+
+/* Dark mode styles */
+.dark body {
+  @apply bg-gray-900 text-white;
+}
